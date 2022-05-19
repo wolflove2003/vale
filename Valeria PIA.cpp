@@ -34,7 +34,7 @@ int opcion, i, j, Alta;
 float iva;
 int main()
 {
-    cout << "\t DENTISTA \n";
+    cout << "\t CITAS DENTISTA \n";
     cout << "1.- Alta cita \n";
     cout << "2.- Modificacacion cita \n";
     cout << "3.- lista de citas \n";
@@ -174,7 +174,7 @@ void archivos()
 
     if (archivo.fail())
     {
-        cout << "ERROR NO SE PUDO CREAR EL ARCHIVO";
+        cout << "ERROR No se guardo el archivo";
         exit(1);
     }
 
